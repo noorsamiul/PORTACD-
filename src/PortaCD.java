@@ -71,6 +71,7 @@ public class PortaCD {
         return r;
     }
 
+    /*
     public int confrontaCollezione(PortaCD m) {
         int r = 0;
         for (int i = 0; i < max_num_cd; i++) {
@@ -82,24 +83,23 @@ public class PortaCD {
         }
         return r;
     }
+    */
 
-    /*
-     * public int confrontaCollezione(CD m) {
-     * int pos = 0;
-     * int x = 0;
-     * boolean trovato = true;
-     * while (trovato == true && pos <= max_num_cd) {
-     * int i = 0;
-     * while (trovato = true && pos <= max_num_cd) {
-     * if (dischi[x] != null && dischi[x].equals(i)) {
-     * trovato = false;
-     * }
-     * pos++;
-     * }
-     * }
-     * return pos;
-     * }
-     */
+    public int confrontaCollezione(CD m) {
+        int pos = 0;
+        int x = 0;
+        boolean trovato = true;
+        while (trovato == true && pos <= max_num_cd) {
+            int i = 0;
+            while (trovato = true && pos <= max_num_cd) {
+                if (dischi[x] != null && dischi[x].equals(i)) {
+                    trovato = false;
+                }
+                pos++;
+            }
+        }
+        return pos;
+    }
 
     public String toString() {
         String s = "Porta CD\n";
