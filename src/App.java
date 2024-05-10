@@ -38,7 +38,7 @@ public class App {
 
         System.out.println(p);
 
-        System.out.println(c.confrontaCollezione(c2)); 
+        System.out.println(c.confrontaCollezione(c3)); 
 
     }
 }
